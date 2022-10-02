@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { FaSearch } from "react-icons/fa";
-import ReactSearchBox from "react-search-box";
 import "./App.css";
 
 export default function Member() {
@@ -98,7 +97,7 @@ export default function Member() {
           serRes.map((item, index) => (
             <div key={index} className="container">
               <div>
-                <img src={item.img} className="img" />
+                <img src={item.img} className="img" alt="memberImg" />
               </div>
               <div className="name-cont">
                 <div>

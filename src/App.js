@@ -1,7 +1,6 @@
-import { useState, useEffect, Avatar, Checkbox, Image } from "react";
+import { useState } from "react";
 import "./App.css";
 // import SearchIcon from "@mui/icons-material/Search";
-import { FaSearch } from "react-icons/fa";
 import { FaGreaterThan } from "react-icons/fa";
 import Member from "./member.js";
 
@@ -9,9 +8,6 @@ function App() {
   const [modal, setModal] = useState(false);
   const showMem = () => {
     setModal(!modal);
-  };
-  const hideMem = () => {
-    setModal(false);
   };
   // const handleClick = (event) => {
   //   if (event.detail === 2) {
