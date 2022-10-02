@@ -1,0 +1,95 @@
+.main {
+  margin-top: 50px;
+}
+.btn {
+  width: 120px;
+  height: 20px;
+  margin-top: 10px;
+  background-color: white;
+  outline: none;
+  border: none;
+}
+.container {
+  /* background-color: black; */
+  justify-content: flex-start;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.header {
+  font-size: xx-large;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #1c2833;
+  margin-left: 25px;
+}
+.searchCont {
+  display: flex;
+  flex-direction: row;
+  margin-left: -30px;
+}
+.srch {
+  background-color: black;
+}
+.searchbox {
+  margin-left: 50px;
+  width: 535px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  border-color: #ddd;
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
+  background-color: #f2f4f4;
+  border: 0;
+  padding-left: 30px;
+  align-self: center;
+}
+.searchbox:focus {
+  outline: none;
+}
+.img {
+  width: 70px;
+  border-radius: 40px;
+}
+.name {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 600;
+  color: #212f3d;
+}
+.name-cont {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 20px;
+}
+.mail {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #797d7f;
+}
+.mail-cont {
+  margin-top: -40px;
+}
+.dropdown {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14x;
+  border-radius: 2px;
+  border-top-right-radius: 0px;
+  border-bottom-right-radius: 0px;
+  background-color: white;
+  margin-top: 25px;
+  border: 0;
+  border-color: white;
+}
+.dropdown:focus {
+  outline: none;
+}
+.chkbox {
+  margin-left: 50px;
+  margin-top: 20px;
+}
