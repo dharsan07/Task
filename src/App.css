@@ -89,7 +89,12 @@
 .dropdown:focus {
   outline: none;
 }
+.chk {
+  margin-top: 22px;
+  margin-left: 70px;
+}
 .chkbox {
+  width: 300;
   margin-left: 50px;
   margin-top: 20px;
 }
