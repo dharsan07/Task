@@ -3,7 +3,7 @@ import { FaSearch } from "react-icons/fa";
 import "./App.css";
 
 export default function Member() {
-  const [list, setList] = useState([
+  const [list] = useState([
     {
       id: 1,
       name: "Dharsan",
